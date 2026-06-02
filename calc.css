@@ -117,4 +117,23 @@ button:hover {
     0px 2px 3px rgba(0,0,0,0.5);
 }
 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #857885 !important;
+        color: #ffffff !important;
+    }
+    .calculator {
+        background-color: #121113 !important;
+    }
+    .display {
+        background-color: #857885 !important;
+    }
+    .btn-number {
+        background-color: #00B2CA !important;
+    }
+    .btn-operation {
+        background-color: #F79256 !important;
+    }
+}
+
 
