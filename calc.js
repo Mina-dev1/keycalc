@@ -23,7 +23,6 @@ acButton.addEventListener('click', () => {
     secondOperand = "";
     operation = undefined;
     computation ="";
-
 })
 
 function deleteNumber () {
@@ -32,8 +31,8 @@ function deleteNumber () {
         downDisplay.innerText = secondOperand;
     }
     else if (operation) {
-    operation = undefined;
-    upDisplay.innerText = firstOperand;
+        operation = undefined;
+        upDisplay.innerText = firstOperand;
     }
     else if (firstOperand !== "") {
         firstOperand = firstOperand.slice(0, -1);
